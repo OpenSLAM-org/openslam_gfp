@@ -77,7 +77,9 @@ $ make \endverbatim
  * The software depends on the following external libraries
  * \li <em> Boost >= 1.4 (special_functions/binomial) </em>
  * \section ex_sec Examples
- * Example files can be found in \c bin/
+ * Example files can be found in \c bin/. For testing a FLIRT words dataset has been included in \c data_example/
+ * 
+ * 
  * 
  * \verbatim bin/gefp_cl \endverbatim reads a dataset where each scan is composed of FLIRT words and retreives best matches in the dataset for benchmarking. 
  * Many parameters can be selected from command line (kernel size, bag-of-words/distances, etc)
