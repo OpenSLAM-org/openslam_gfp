@@ -38,6 +38,11 @@ scan2: 4 58 66 45 33 6 1
 scan3: 1 223 3
 scan4: 45 33 6 1 12 56
 ...  \endverbatim
+ * \section flirtconnection How can I use GFPs?
+ * <b>You can use it as a library for standalone operations (see executables on Example section) or you can use it as a plugin of FLIRTlib for global one-shot localization.</b>
+ *
+ * The latest version of <a href="http://openslam.org/flirtlib.html">FLIRTLib</a> fully supports LIBGeFP, and it will download LIBGeFP automatically at compile time.
+ * 
  * 
  * \section intro Why are GFPs useful?
  *
