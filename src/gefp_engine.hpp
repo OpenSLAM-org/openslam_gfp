@@ -267,7 +267,7 @@ class gefp_engine
 		/**
 		 * Matches a query scan with the dataset
 		 * 
-		 * Saves the k-best results on disk for each query along with computational time 
+		 * Computes the k-best results on disk
 		 * 
 		 * @param dtype  kind of matching method: 1 standard bag-of-words, 2 geometrical FLIRT phrases
 		 * @param query_v a query scan, composed by a vector of numbers, each indicating a FLIRT word
