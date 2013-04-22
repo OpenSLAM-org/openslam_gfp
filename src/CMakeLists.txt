@@ -18,5 +18,5 @@ TARGET_LINK_LIBRARIES(gefp_cl_onequery gefp)
 
 
 #~ install
-install (TARGETS gefp DESTINATION /usr/lib)
-install (FILES gefp_engine.hpp DESTINATION /usr/include/gefp)
+ install (TARGETS gefp DESTINATION lib)
+install (FILES gefp_engine.hpp DESTINATION include/gefp)
