@@ -42,7 +42,12 @@ scan4: 45 33 6 1 12 56
  * <b>You can use it as a library for standalone operations (see executables on Example section) or you can use it as a plugin of FLIRTlib for global one-shot localization.</b>
  *
  * The latest version of <a href="http://openslam.org/flirtlib.html">FLIRTLib</a> fully supports LIBGeFP, and it will download LIBGeFP automatically at compile time.
+ *
+ * <b>with FLIRTlib</b>:
  * 
+ * to run the loop closing test (libgfp matching with RANSAC verification). Take care of selecting the right directory for the data example:
+ * 
+ * ../bin/GFPLoopClosingTest -filename data/intel-lab.log -vocabulary data/vocabulary.voc 
  * 
  * \section intro Why are GFPs useful?
  *
